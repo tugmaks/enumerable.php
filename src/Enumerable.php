@@ -231,7 +231,7 @@ abstract class Enumerable
         $this->rawValue = $index;
     }
 
-    final private function __clone() {}
-    final private function __sleep() {}
-    final private function __wakeup() {}
+    final public function __clone() {}
+    final public function __sleep() {}
+    final public function __wakeup() {}
 }
